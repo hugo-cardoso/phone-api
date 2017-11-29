@@ -1,0 +1,23 @@
+{
+  "name": "phone-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tunadao1/phone-api.git"
+  },
+  "author": "Hugo Cardoso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tunadao1/phone-api/issues"
+  },
+  "homepage": "https://github.com/tunadao1/phone-api#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1"
+  }
+}
