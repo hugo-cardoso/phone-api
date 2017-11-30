@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <form id="addDeviceForm">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <h5>BASICS</h5>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="devicebrand">Brand</label>
+                <select type="text" class="form-control" name="devicebrand">
+                  <option>Select</option>
+                  <option value="Samsung">Samsung</option>
+                  <option value="Motorola">Motorola</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceName">Name</label>
+                <input type="text" class="form-control" name="deviceName" placeholder="Name">
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceWeight">Weight</label>
+                <input type="text" class="form-control" name="deviceWeight" placeholder="Weight">
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                  <label for="deviceSize">Size</label>
+                  <input type="text" class="form-control" name="deviceSize" placeholder="Size">
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <h5>NETWORK</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceGsm">GSM</label>
+                <input type="text" class="form-control" name="deviceGsm" placeholder="GSM">
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceDualSim">Dual SIM</label>
+                <select class="form-control" name="deviceDualSim">
+                  <option>Select</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceWifi">Wifi</label>
+                <select type="text" class="form-control" name="deviceWifi">
+                  <option>Select</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceBluetooth">Bluetooth</label>
+                <input type="text" class="form-control" name="deviceBluetooth" placeholder="Bluetooth">
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceUsb">USB</label>
+                <input type="text" class="form-control" name="deviceUsb" placeholder="USB">
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceNfc">NFC</label>
+                <select type="text" class="form-control" name="deviceNfc">
+                  <option>Select</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceGps">GPS</label>
+                <input type="text" class="form-control" name="deviceGps" placeholder="GPS">
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceRadio">Radio</label>
+                <select type="text" class="form-control" name="deviceRadio">
+                  <option>Select</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="devicetv">Tv</label>
+                <select type="text" class="form-control" name="devicetv">
+                  <option>Select</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                  <h5>MOBILE DATA</h5>
+                </div>
+              </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceDataType">Types</label>
+                <input type="text" class="form-control" name="deviceDataType" placeholder="Types">
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceDataDown">Max Download</label>
+                <input type="number" class="form-control" name="deviceDataDown" placeholder="Max Download">
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceDataUp">Max Upload</label>
+                <input type="number" class="form-control" name="deviceDataUp" placeholder="Max Upload">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <h5>SENSORS</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceAcelerometer">Acelerometer</label>
+                <select type="text" class="form-control" name="deviceAcelerometer">
+                  <option>Select</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceProximity">Proximity</label>
+                <select type="text" class="form-control" name="deviceProximity">
+                  <option>Select</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceGiroscope">Giroscope</label>
+                <select type="text" class="form-control" name="deviceGiroscope">
+                  <option>Select</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <label for="deviceCompass">Compass</label>
+                <select type="text" class="form-control" name="deviceCompass">
+                  <option>Select</option>
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-xs-12">
+                  <h5>BATTERY</h5>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                  <label for="deviceBatteryType">Type</label>
+                  <input type="text" class="form-control" name="deviceBatteryType" placeholder="Type">
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                  <label for="deviceProximity">MaH</label>
+                  <input type="number" class="form-control" name="deviceBatteryAmp" placeholder="MaH">
+                </div>
+              </div>
+            </div>
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <hr>
+    <div id="tableContent">
+
+    </div>
+  </div>
+
+  <script src="./js/bundle.js"></script>
+</body>
+</html>
