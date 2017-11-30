@@ -18,6 +18,8 @@
   "homepage": "https://github.com/tunadao1/phone-api#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.5",
     "nodemon": "^1.12.1"
   }
 }

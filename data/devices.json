@@ -1,17 +1,36 @@
 [
   {
+    "id": "XT1068",
     "brand": "Motorola",
-    "name": "Moto G",
-    "id": "XT1068"
-  },
-  {
-    "brand": "Motorola",
-    "name": "Moto X",
-    "id": "XT1069"
-  },
-  {
-    "brand": "Samsung",
-    "name": "Galaxy S8+",
-    "id": "XYZ"
+    "name": "Moto G (2a Ger)",
+    "size": "141.5 x 70.7 x 11 mm",
+    "weight": "149g",
+    "network": {
+      "gsm": "Quad Band (850/900/1800/1900)",
+      "dual_sim": true,
+      "sim_card": "Micro",
+      "wifi": "802.11b/g/n",
+      "bluetooth": "4.0 com A2DP/LE",
+      "usb": "Micro USB 2.0",
+      "nfc": false,
+      "gps": "A-GPS/GLONASS",
+      "radio": true,
+      "tv": false,
+      "mobile_data": {
+        "types": "3G/4G",
+        "down_max": "21 Mbs",
+        "up_max": "5.76 Mbs"
+      }
+    },
+    "sensors": {
+      "acelerometer": true,
+      "proximity": true,
+      "giroscope": true,
+      "compass": true
+    },
+    "battery": {
+      "type": "Litio",
+      "amp": "2070 Mah"
+    }
   }
 ]
